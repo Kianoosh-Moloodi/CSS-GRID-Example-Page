@@ -249,7 +249,7 @@ button{
 #home-articles .articles-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 1rem;
+    gap: 1rem;
 }
 
 #main-footer{
@@ -264,7 +264,7 @@ button{
 #main-footer .footer-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 3rem;
+    gap: 3rem;
     text-align: left;
 }
 
@@ -294,7 +294,7 @@ button{
     display: grid;
     grid-template-columns: 5fr 2fr;
     margin: 2rem 0;
-    grid-gap: 1.5rem;
+    gap: 1.5rem;
 }
 
 .page-container article{

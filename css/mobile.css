@@ -8,7 +8,7 @@
 
 #main-nav .container{
     grid-template-columns: 1fr;
-    grid-gap: 1.4rem;
+    gap: 1.4rem;
     justify-items: center;
 }
 
@@ -22,12 +22,13 @@
     }
     #main-nav .container{
         grid-template-columns: 1fr;
-        grid-gap: 1.4rem;
+        gap: 1.2rem;
         justify-items: center;
     }
 
     #main-nav ul, #main-nav .logo{
         justify-self: center;
+        font-size: 1.4rem;
     }
 
     #showcase .showcase-container, #home-articles .articles-container, #main-footer .footer-container{
@@ -48,8 +49,6 @@
     }
 
     #showcase .showcase-content a{
-        display: block;
-        margin: 0.5rem 0;
-        text-align: center;
+        display: none;
     }
 }
